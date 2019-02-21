@@ -49,8 +49,12 @@ Let the user choose a level of difficulty at the beginning of the program. Easy 
             # letter is in word  - # put letter in LETTER USED LIST
             # TELL USER LETTER IS IN THE WORD (print)
                 # --- CODE 
-                    # 
-        # take GUESS COUNT LIST and tell user how many guess so far (print) 
+                    # use underscore in place of letter would be
+                    # fill in letter for space it occupies in the word (USE FUNCTION)
+                        # function take letter guessed and return or else letter 
+                            # if user letter guess in word then RETURN in function created
+                            # ELSE if now letter not in word RETURN underscore
+        # take GUESS COUNT LIST and tell user how many guess so far (print) (include how many guesses left)
 
         # ASK LETTER
 
