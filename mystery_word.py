@@ -9,6 +9,7 @@ Let the user choose a level of difficulty at the beginning of the program. Easy 
     # (code thing) take user input 
     # given user input choose random word
     # take random word and start game (MORE DETAIL & Steps here for the program code 
+     # if user puts in more than 1 letter program tells them how invalid (print choose one
 
 # Python things this program will use
     # variables
@@ -30,25 +31,53 @@ Let the user choose a level of difficulty at the beginning of the program. Easy 
         # ask user what level of difficulty to play
             # user input level difficulty based on scale of 1-3
         # Take user input from choice of 1 (easy,) 2, medium and 3 hard 
-    # GEnerate random
+    # GEnerate random word based on scael
     # Program take input chooses random word from list of difficulty 
-    # -- User intreaction tell user how letters the word has
+    # -- User intreaction tell user how letters the word has referencing random word
+    # Program asks user to chooose single letter  (print)
+        # if user chooses 2 letter (PRINT - INvalid in put, choose one word, ask for another choice)
+        # take new letter and run code for that (IF ELSE CODE)
+    # Program - take user input of letter and evaluate if letter is in word
+        # Choosen letter not in word
+            #  IF LETTER IS NOT IN THE WORD the user  has lost a guess  *GUESS LOST*
+                #  (PROGRAM will need to KEEPS TRACK of guess COUNT, use function maybe do this or list)
+            # LETTER ELIMINATED - letter no longer used - may need create LIST USED for that
+                     # create list of used elimated used letters
+             # PRINT take GUESS COUNT LIST and tell user how many guess so far (print) & 
+        # CHOOSEN LETTER IS IN WORD 
+            # Letter is in word -- no guess lost (do not add to count list)
+            # letter is in word  - # put letter in LETTER USED LIST
+            # TELL USER LETTER IS IN THE WORD (print)
+                # --- CODE 
+                    # 
+        # take GUESS COUNT LIST and tell user how many guess so far (print) 
 
-    # letters in list
+        # ASK LETTER
+
+
+
+
+
+#########
+#### FUTURE TO DO 
+    # tell user they have 8 guesses
+    # If a user enters more than one letter, tell them the input is invalid and let them try again.
+        
+ 
     # import file of letters 
+##########################
 
 
+#1. At the start of the game, let the user know how many letters the computer's word contains.
 
-At the start of the game, let the user know how many letters the computer's word contains.
+# 2. Ask the user to supply one guess (i.e. letter) per round. This letter can be upper or lower case and it should not matter. If a user enters more than one letter, tell them the input is invalid and let them try again.
 
-Ask the user to supply one guess (i.e. letter) per round. This letter can be upper or lower case and it should not matter. If a user enters more than one letter, tell them the input is invalid and let them try again.
+# 3.Let the user know if their guess appears in the computer's word.
 
-Let the user know if their guess appears in the computer's word.
+# 4. Display the partially guessed word, as well as letters that have not been guessed. For example, if the word is BOMBARD and the letters guessed are a, b, and d, the screen should display:
 
-Display the partially guessed word, as well as letters that have not been guessed. For example, if the word is BOMBARD and the letters guessed are a, b, and d, the screen should display:
-
-B _ _ B A _ D
-A user is allowed 8 guesses. Remind the user of how many guesses they have left after each round.
+# 5. B _ _ B A _ D
+# 6. A user is allowed 8 guesses. Remind the user of how many guesses they have left after each round.
 
 A user loses a guess only when they guess incorrectly. If they guess a letter that is in the computer's word, they do not lose a guess.
 
