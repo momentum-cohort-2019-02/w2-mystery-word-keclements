@@ -8,7 +8,36 @@ Let the user choose a level of difficulty at the beginning of the program. Easy 
     # user input level difficulty based on scale of 1-3
     # (code thing) take user input 
     # given user input choose random word
-    # take random word and start game (MORE DETAIL & Steps here for the program code )
+    # take random word and start game (MORE DETAIL & Steps here for the program code 
+
+# Python things this program will use
+    # variables
+    # modules
+    # methods
+    # loops (for loops, while loops)
+    # functions
+    # compairsons
+    # other shit
+
+# Program Code Actions  - Python FUNCTIONS are used for created ACTIONS
+    # import file of words from (word.txt)
+    # break down levels of difficulty based on word length 
+        # use if then to define short to long words
+            # create list of short words, medium, long words
+                # list names defined with variables
+    # -- User intreaction
+        # tell user levels of difficituly (print command)
+        # ask user what level of difficulty to play
+            # user input level difficulty based on scale of 1-3
+        # Take user input from choice of 1 (easy,) 2, medium and 3 hard 
+    # GEnerate random
+    # Program take input chooses random word from list of difficulty 
+    # -- User intreaction tell user how letters the word has
+
+    # letters in list
+    # import file of letters 
+
+
 
 At the start of the game, let the user know how many letters the computer's word contains.
 
