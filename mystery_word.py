@@ -91,9 +91,6 @@ def letter_not_in_word(letter, random_generated_word):
 
 
 
-
-
-
 #########
 #### FUTURE TO DO 
     # tell user they have 8 guesses
