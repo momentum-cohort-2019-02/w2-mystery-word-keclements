@@ -1,4 +1,13 @@
 
+# Task - Define easy word 
+def 
+
+def getRandomWord(wordList):
+ 41.     # This function returns a random string from the passed list of
+           strings.
+ 42.     wordIndex = random.randint(0, len(wordList) - 1)
+ 43.     return wordList[wordIndex]
+
 
 Let the user choose a level of difficulty at the beginning of the program. Easy mode only has words of 4-6 characters; normal mode only has words of 6-8 characters; hard mode only has words of 8+ characters.
 
@@ -82,14 +91,18 @@ def letter_not_in_word(letter, random_generated_word):
         return
         
 
-    
-
 # nameoflist.apppend(letter)
 
-        
+
+#######
+# -- User intreaction
+        # tell user levels of difficituly (print command)
+        # ask user what level of difficulty to play
+            # user input level difficulty based on scale of 1-3
+        # Take user input from choice of 1 (easy,) 2, medium and 3 hard 
 
 
-
+####
 
 #########
 #### FUTURE TO DO 
