@@ -1,0 +1,5 @@
+import random  #important is command
+
+alphabit = ["a","b","c"]  #define variable
+random_letter = random.choice(alphabit) 
+ 
