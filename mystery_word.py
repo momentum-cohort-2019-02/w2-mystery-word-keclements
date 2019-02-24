@@ -5,7 +5,7 @@ with open("words.txt") as word_file:
     print(word_list)
 
 # Import library
-import 
+import random
 
 # def getRandomWord(wordList):
 #  41.     # This function returns a random string from the passed list of
