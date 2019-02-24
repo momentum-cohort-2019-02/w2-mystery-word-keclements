@@ -4,7 +4,8 @@ with open("words.txt") as word_file:
     word_list = word_file.readlines()
     print(word_list)
 
-
+# Import library
+import 
 
 # def getRandomWord(wordList):
 #  41.     # This function returns a random string from the passed list of
@@ -24,7 +25,7 @@ with open("words.txt") as word_file:
 
 # # Python things this program will use
 #     # variables
-#     # modules
+#     # modules 
 #     # methods
 #     # loops (for loops, while loops)
 #     # functions
@@ -69,31 +70,31 @@ with open("words.txt") as word_file:
 
 #         # ASK LETTER
 
-# guessed_letters = [] #just defined variable and will refence it later, can be empty
-# used_letters = []
-# allowed_guess = 8
+guessed_letters = [] #just defined variable and will refence it later, can be empty
+used_letters = []
+allowed_guess = 8
  
 # # Letter in word FUNCTION code thoughts
-# def letter_in_word (letter, random_generated_word):
-#     letter = input("Guess a letter for this word?") # renamed from user input and named in letter variable
-#     used_letters.append(letter)
-#     if letter in random_generated_word:
-#         return letter #return closes if statement above 
-#     else:
-#         return "_"
+def letter_in_word (letter, random_generated_word):
+    letter = input("Guess a letter for this word?") # renamed from user input and named in letter variable
+    used_letters.append(letter)
+    if letter in random_generated_word:
+        return letter #return closes if statement above 
+    else:
+        return "_"
 
-# def letter_not_in_word(letter, random_generated_word):
-#     letter = input("Guess a letter for this word?")
-#     used_letters.append(letter)
-#     if letter not in random_generated_word:
-#         allowed_guess -= 1
-#         print("You have " + allowed_guess + " left")
-#         return letter
-#     else:
-#         return
+def letter_not_in_word(letter, random_generated_word):
+    letter = input("Guess a letter for this word?")
+    used_letters.append(letter)
+    if letter not in random_generated_word:
+        allowed_guess -= 1
+        print("You have " + allowed_guess + " left")
+        return letter
+    else:
+        return
         
 
-# # nameoflist.apppend(letter)
+# nameoflist.apppend(letter)
 
 
 # #######
