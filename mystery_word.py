@@ -58,7 +58,7 @@ import random
 #              # PRINT take GUESS COUNT LIST and tell user how many guess so far (print) & 
 #         # CHOOSEN LETTER IS IN WORD 
 #             # Letter is in word -- no guess lost (do not add to count list)
-#             # letter is in word  - # put letter in LETTER USED LIST
+#             # letter is in word  -# put letter in LETTER USED LIST
 #             # TELL USER LETTER IS IN THE WORD (print)
 #                 # --- CODE 
 #                     # use underscore in place of letter would be

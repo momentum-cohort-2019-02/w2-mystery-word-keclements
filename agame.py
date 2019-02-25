@@ -10,7 +10,11 @@ with open('words.txt') as file:
     word_list = file.read().splitlines() 
    #  print(word_list) #valid test of print word_list
 
+# Variables used 
+
 word_choice_list = []
+word_to_guess = []
+letters
 
 #function defile difficulty
 def easy_mode():
@@ -41,42 +45,21 @@ def difficulty_level():
         hard_mode()
 
 
-
-def clean_text()
-
-def playgame():
-
-
-def playgame():
-    alphabit = ["a","b","c"]  #define variable
-    random_letter = random.choice(alphabit) 
-    letter_pick = input("What is your letter guess")
-    if letter_pick == random_letter:
-        print("you are right")
+def letter_in_word (letter, random_generated_word):
+    letter = input("Guess a letter for this word?") # renamed from user input and named in letter variable
+    used_letters.append(letter)
+    if letter in random_generated_word:
+        return letter #return closes if statement above 
     else:
-        print("wrong")
-    return
+        return "_"
 
-playgame() 
+def letter_not_in_word(letter, random_generated_word):
+    letter = input("Guess a letter for this word?")
+    used_letters.append(letter)
+    if letter not in random_generated_word:
+        allowed_guess -= 1
+        print("You have " + allowed_guess + " left")
+        return letter
+    else:
 
-
-def game 
-
-#word = 
-# random word generated from user choice from the the chosen difficult yay
-
-#get_random_word(chosen_difficulty)
-
-
-get
-get_letter_from_user: 
-
-
-
-# make random word
-# from word in word_list
-
-#assign difficulty to word
- #   if random_word = len(word_list) < 4
-
-
+def game
