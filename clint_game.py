@@ -1,0 +1,1 @@
+word_to_guess = "racecar"

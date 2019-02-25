@@ -43,17 +43,17 @@ def difficulty_level():
         medium_mode()
 	else hard_mode =='hard':
         hard_mode()
+        print("You have chosen " + chosen_difficulty)
 
-
-def letter_in_word (letter, random_generated_word):
+def letter_in_word (random_generated_word):
     letter = input("Guess a letter for this word?") # renamed from user input and named in letter variable
-    used_letters.append(letter)
+    used_letters.append(letter) 
     if letter in random_generated_word:
         return letter #return closes if statement above 
     else:
         return "_"
 
-def letter_not_in_word(letter, random_generated_word):
+def letter_not_in_word(random_generated_word):
     letter = input("Guess a letter for this word?")
     used_letters.append(letter)
     if letter not in random_generated_word:
@@ -62,4 +62,5 @@ def letter_not_in_word(letter, random_generated_word):
         return letter
     else:
 
-def game
+difficulty_level()
+letter_in_word(random_generated_word="cat") 
