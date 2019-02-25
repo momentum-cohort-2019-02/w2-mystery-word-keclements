@@ -18,6 +18,7 @@ def easy_mode():
         for small_words in file:
             if len(small_words) >= 4 and len(small_words) <= 6:
                word_choice_list.append(small_words)
+               return print(small_words)
 
 def medium_mode():
     with open('words.txt') as file: #file variable defined as words.txt
@@ -37,18 +38,17 @@ def difficulty_level():
         easy_mode()
     elif chosen_difficulty == 'medium':
         medium_mode()
-    else hard_mode =='hard':
+    elif chosen_difficulty == 'hard':
         hard_mode()
 
 
-print easy_mode
-
-def playgame():
-
+difficulty_level()
+#print(difficulty_level)
 
 
 
-def game 
+
+#def game 
 
 #word = 
 # random word generated from user choice from the the chosen difficult yay
@@ -56,8 +56,8 @@ def game
 #get_random_word(chosen_difficulty)
 
 
-get
-get_letter_from_user: 
+#get
+#et_letter_from_user: 
 
 
 
