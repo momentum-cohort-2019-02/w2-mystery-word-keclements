@@ -41,7 +41,7 @@ def difficulty_level():
         easy_mode()
     elif chosen_difficulty == 'medium':
         medium_mode()
-    else hard_mode =='hard':
+	else hard_mode =='hard':
         hard_mode()
 
 
