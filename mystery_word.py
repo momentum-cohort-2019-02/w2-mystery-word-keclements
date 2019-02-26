@@ -1,8 +1,8 @@
-print("hi."
+print("hi.")
 
+print("Let's play a game")
 
-# ask 1 or 2
-thing = input("pick 1 or 2")
+print("pick 1 or 2")
 
 print("Silly. I don't care what you pick")
 
