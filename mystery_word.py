@@ -1,8 +1,10 @@
-import random
-print("hi.")
+print("hi."
+
 
 # ask 1 or 2
-pick = input("pick 1 or 2")
+thing = input("pick 1 or 2")
+
+print("Silly. I don't care what you pick")
 
 # get input of 1 or 2
 # if 1 
@@ -11,4 +13,5 @@ pick = input("pick 1 or 2")
 # print ("Good bye ")
 #game stops
 
-if
+
+ 
